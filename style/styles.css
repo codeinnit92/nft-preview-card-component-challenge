@@ -1,0 +1,129 @@
+/* 
+=======
+    Google-font import
+=======
+*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* 
+=======
+    CSS Reset
+=======
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+#root, #__next {
+    isolation: isolate;
+}
+
+:root{
+    --cyan:hsl(178, 100%, 50%);
+    --soft-blue:hsl(215, 51%, 70%);
+    --dark-blue:hsl(215, 32%, 27%);
+    --darker-blue:hsl(216, 50%, 16%);
+    --darkest-blue:hsl(217, 54%, 11%);
+    --white:hsl(0,0%,100%,0.65);
+    --whiter:hsl(0,0%,100%);
+    --padding-top:1.5rem;
+}
+
+body{
+    background-color: var(--darkest-blue);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    min-height: 100vh;
+    color:var(--white);
+}
+
+.container{
+    max-width:90rem;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width:23.4375rem;
+    padding:1.5rem;
+    margin: 1rem;
+    background-color:var(--darker-blue);
+    border-radius: 1rem;
+}
+.card_image img{
+    width:100%;
+    height:100%;
+    border-radius: 0.675rem;
+}
+.card_title,
+.card_description,
+.wrapper,
+.artist{
+    padding-top:var(--padding-top);
+}
+.card_title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    width:90%;
+    color:var(--whiter)
+}
+.wrapper{
+    display: flex;
+    padding-bottom: 1rem;
+    gap:3rem;
+    border-bottom: 2px solid var(--dark-blue);
+}
+.price,
+.time-left{
+    flex: 50;
+    display: flex;
+}
+.price img,
+.time-left img{ 
+    height: 100%;
+    padding-right:0.6rem ;
+}
+.price p{
+    color:var(--cyan);
+}
+
+.artist{
+    display: flex;
+}
+.artist img{
+    width: 15%;
+    border:2px solid var(--whiter);
+    border-radius: 50%
+}
+.artist p{
+    padding: 0.6rem 0 0 1rem;
+}
+.artist_name{
+    color:var(--whiter);
+}
+
+
+.attribution {
+    font-size: 1rem; 
+    text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
