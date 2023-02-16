@@ -10,6 +10,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 
 
 ## Overview
@@ -32,7 +33,9 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - Flex
 - Desktop-first approach
 
+### What I learned 
 
+I learned how to work with links on this particular challenge and by using pseudo-classes and pseudo-elements I learned how to do some pretty decent looking things like the hover effect on the image.
 
 
 
